@@ -42,11 +42,11 @@ alphabet = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m",
 
 # A2a:
 def position_of_letter(chosen_letter):
-    print(alphabet.index(chosen_letter.lower()))
+    # print(alphabet.index(chosen_letter.lower()))
     return alphabet.index(chosen_letter.lower())
 
 
-position_of_letter("J")
+# position_of_letter("J")
 
 print("\nQ2b\n")
 
@@ -57,12 +57,19 @@ print("\nQ2b\n")
 
 # A2b:
 def id_generator_from_name(selected_name):
+    number_holder = ""
+
     for i in range(len(selected_name)):
-        print(position_of_letter(selected_name[i]), end="")
+        number_holder += str(position_of_letter(selected_name[i]))
+        # print(position_of_letter(selected_name[i]), end="")
         # return position_of_letter(selected_name[i])
 
+    # print(number_holder)
+    return int(number_holder)
 
-id_generator_from_name("joy")
+
+
+# id_generator_from_name("joy")
 
 print("\nQ2c\n")
 
@@ -73,21 +80,28 @@ print("\nQ2c\n")
 
 # A2c:
 def password_generator(choose_a_name):
-    storage_number = 0
+    # storage_number = 0
+    # for i in range(len(choose_a_name)):
+    #     if alphabet.index(choose_a_name[i].lower()) % 10 == 0:
+    #         storage_number = storage_number * 10 + position_of_letter(choose_a_name[i].lower())
+    #         print(storage_number)
+    #     elif (alphabet.index(choose_a_name[i].lower()) % 10 != 0) and (alphabet.index(choose_a_name[i].lower()) % 100 == 0):
+    #         storage_number = storage_number * 100 + alphabet.index(choose_a_name[i])
+    #         print(storage_number)
+    #
+    # print(storage_number)
+    sum_of_digits = 0
+    for i in range(len(str(id_generator_from_name(choose_a_name)))):
+        sum_of_digits += int(str(id_generator_from_name(choose_a_name))[i])
+        print(sum_of_digits)
+    print(id_generator_from_name(choose_a_name) - sum_of_digits)
+    return id_generator_from_name(choose_a_name) - sum_of_digits
+    # print(id_generator_from_name(choose_a_name) - sum_of_digits)
 
-    for i in range(0, len(choose_a_name)):
-        if position_of_letter(choose_a_name[i]) % 10 == 0:
-            storage_number = storage_number * 10 + position_of_letter(choose_a_name[i])
-            print(storage_number)
-        elif (position_of_letter(choose_a_name[i]) % 10 != 0) and (position_of_letter(choose_a_name[i]) % 100 == 0):
-            storage_number = storage_number * 100 + position_of_letter(choose_a_name[i])
-            print(storage_number)
-
-    print(storage_number)
-
+# password_generator("ppp")
 
 password_generator("Joy")
-# -------------------------------------------------------------------------------------- #
+# --------------------------------------------------------------------------------------
 
 print("\nQ3a\n")
 

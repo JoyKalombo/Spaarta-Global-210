@@ -68,7 +68,6 @@ def id_generator_from_name(selected_name):
     return int(number_holder)
 
 
-
 # id_generator_from_name("joy")
 
 print("\nQ2c\n")
@@ -97,6 +96,7 @@ def password_generator(choose_a_name):
     print(id_generator_from_name(choose_a_name) - sum_of_digits)
     return id_generator_from_name(choose_a_name) - sum_of_digits
     # print(id_generator_from_name(choose_a_name) - sum_of_digits)
+
 
 # password_generator("ppp")
 
@@ -129,27 +129,31 @@ it_is_prime(87)
 
 print("\nQ3b\n")
 
+
 # Q3b: Now add some functionality to the function which does not error if the user inputs something other than a digit
 
 # A3b:
-# def it_is_prime(potential_prime):
-#     if potential_prime <= 1:
-#         print(False)
-#         return False
-#     elif potential_prime == 2:
-#         print(True)
-#         return True
-#     elif potential_prime > 2:
-#         for k in range(2, potential_prime):
-#             if potential_prime % k == 0:
-#                 print(False)
-#                 return False
-#                 break
-#     elif (not (potential_prime <= 0 or potential_prime > 0)) or potential_prime % 1 != 0:
-#         print("enter an integer value...")
-#
-#     print("True")
-#     return True
+def it_is_prime_improved(potential_prime):
+    if potential_prime <= 1:
+        print(False)
+        return False
+    elif potential_prime == 2:
+        print(True)
+        return True
+    elif potential_prime > 2:
+        for k in range(2, potential_prime):
+            if potential_prime % k == 0:
+                print(False)
+                return False
+                break
+    else:
+        for i in str(potential_prime):
+            if ord(str(potential_prime[i])) < 48 or ord(str(potential_prime[i])) > 57:
+                print("enter an integer value...")
+
+    print("True")
+    return True
 
 
+it_is_prime_improved("g5")
 # -------------------------------------------------------------------------------------- #

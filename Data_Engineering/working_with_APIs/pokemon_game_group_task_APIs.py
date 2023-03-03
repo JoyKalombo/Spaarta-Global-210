@@ -39,4 +39,7 @@ elif base_experience1 < base_experience2:
 else:
     print("We have a draw!!!")
 
-# How to deal with when base experience returns "none"
+# How to deal with when base experience returns "none" (use a "try, except" to fix this... or use a while loop (to have a pokemon with a base experience that is not NONE))
+# A lot of code could have been incorporated in a function, rather than repeating code
+# I could have also incorporated the user input in the terminal
+#Be sure to document all of the code too

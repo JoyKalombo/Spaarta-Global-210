@@ -17,14 +17,14 @@ def retrieve_base_experience(pokemon):
 
 
 player1_pokemon = get_pokemon()
-print(player1_pokemon["name"])
+print("player 1 is ", player1_pokemon["name"])
 base_experience1 = retrieve_base_experience(player1_pokemon)
 print(base_experience1)
 
 print(" ")
 
 player2_pokemon = get_pokemon()
-print(player2_pokemon["name"])
+print("player 2 is", player2_pokemon["name"])
 base_experience2 = retrieve_base_experience(player2_pokemon)
 print(base_experience2)
 
@@ -37,6 +37,6 @@ elif base_experience1 < base_experience2:
     print(player2_pokemon["name"], "wins because", player2_pokemon["name"] + "'s base experience is",
           (base_experience2 - base_experience1), "more than that of", player1_pokemon["name"])
 else:
-    print("we have a draw!!!")
+    print("We have a draw!!!")
 
 # How to deal with when base experience returns "none"

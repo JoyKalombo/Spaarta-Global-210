@@ -31,10 +31,10 @@ print("\nQ2a\n")
 # Q2a: from the list of names, create another list that consists of only the first letters of each first name
 # e.g. ["Alan Turing", "Leonardo Fibonacci"] -> ["A", "L"]
 names = ["Alan Turing", "Leonardo Fibonacci", "Katherine Johnson", "Annie Easley", "Terence Tao"]
-newlist = []
+new_list = []
 for i in range(len(names)):
-    newlist.append(names[i][0])
-print(newlist)
+    new_list.append(names[i][0])
+print(new_list)
 # A2a:
 
 

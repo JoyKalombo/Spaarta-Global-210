@@ -14,9 +14,7 @@ def divisors_of(chosen_number):
     print("the divisors of", chosen_number, "are", list_of_divisors)
     return list_of_divisors
 
-
 print("\nQ1b\n")
-
 
 # Q1b: Write a function which takes in two integers as arguments and returns true if one of the numbers
 # is a factor of the other, false otherwise

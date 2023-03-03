@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "big-mender-379316",
+  "private_key_id": "0c14ac615fe75aaf6360f3636913061cc4db36c4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCpqxwzXZJMmRLe\ngZa2bOn9Vv6uSfd6gWQA1QcxuEaoddAyzxt0BglOnMXJ3R3exqeUUQnfr7hUVn6i\n8NpJic5YlhOT8WN5ntlzJbZLqbs/MfmRYhaWlMcxlqHOpb6VPV1vnj5N6EdMnggF\nGkkGSSz6NdehTfEUTZPZMBP/2TMNUWoNs+IvpOAAzY1dZ5QJ1RByZezpD4CgX/y1\nDg8LwN6ONdoVcenNlJ/fqB73zaq17xmw56iSC89Dbekop3lZuGNZQG+s/1unjgOm\ntUtA7Rye8Tt7yw3jXcjlaM/P7qotx1e845SXF1P/rkDXVxs/JOX/vGKf7Jnm7Xz/\nGbI8WuQRAgMBAAECggEACa5TKIV53p0rrolSNjxT2T916S/HFepHmzo3KUmvMxdZ\nJukFKJMxQ+xzPFUoSj48sMcIoJwyu5HdiG0PO3vINmrxGN4rXkoSH2fttUwCPIpy\nB8RYbxpJR7BQBmM+fbP3vpxsHX8NKxc89Gjp9UNGycu5hGvsKfZ84uXYzPP8SHxp\nNTKYOF9LCR83mQadTr2EoarsbOfm6L3yYuDiPmmYFbOxVljH2oEhAb0isuIbFetQ\nsGvslasZV1//pxHfmPXZI661XctRZJJHjbTAkLsBfRi+KTzhFjMXyfNDq5LEmEr1\na3osYnU1CCAt4sLrzHNqkKbcNNUuh1Z1DCrFL0pT1QKBgQDqfwIafvJTkt989yCd\n2ONRwyMsuuQZ6VXmWLik0UkQD39b2S8XUdwftfNwZUfi/HrIyAGCbgB/KyDouvTI\neBkzxCZKtRzfSmz6JgxZFVf8ETc4ZKhmCIwGuFnSsC6cmP/8RKKgSK+MkXqUoGWu\nKeydQNK3sMW0QH7IRdnG+l/FBQKBgQC5OjeSyM/AxGCgxrMmrqAx8mkQk0kBc/bb\nw+l9skRKbsbl4YVSrX4DJx+DGtEWkkYJFEK2RtftZ/WH5+oKa85b+3XGTK1ASsgK\nyYUvhdvvFCG4+PQGETikoH1a3j0D2ZmeBGJ8fhTXMYJWiRLr9BleI/hp1S9N5tqp\n4xXfN0/QnQKBgErvgW2UKb45Tj/x/TNUDvie4ku2AZSiMzgkHAVXeACw4yMn2Vub\nZjuf+oZtZzaLNnWZLJpQqsn4r1CQBg9WCb+4LABttidI8mBR7lo9btt3aO0VhZbt\nnkm7ecDRWmPipNMp38pWz/qcts5uH3Azp5BtGalnzRYYEivP3pMuiZI9AoGAfbbF\ngRpJ5sthyb0SWm6qyzt7k4RjSFkscnvFPUqAjwQgemVV14dovzsOaC0LPAaLAh5+\nKLhsVPT58AO3FNuWc1d3196yt7AJlUiw3FA9tUY0nRZaiMOnbhR+/+1V/Abz/At9\nzIDGJEe17oWaEgraLMq9Dxdhw72rKyK09YrU4QECgYBAl/3GPtvQ0hTcr0hMrTrO\nazSChXvz2ioq6Xt39XDR+01Qxlg4C7SF2w29MvtJ7bqNAKrnAb9hqqFJATkU385W\nc/7Um4VQl5UZOJpHatPyMsRgMhrmVhXf01674aELvcVAN5K915+3laFuCDA1/Bdf\nZHNLIUg5hl29pBdOIzlrig==\n-----END PRIVATE KEY-----\n",
+  "client_email": "mr-j-learning-gcp@big-mender-379316.iam.gserviceaccount.com",
+  "client_id": "100057889150038211629",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/mr-j-learning-gcp%40big-mender-379316.iam.gserviceaccount.com"
+}
